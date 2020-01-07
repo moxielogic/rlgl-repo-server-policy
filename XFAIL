@@ -1,2 +1,7 @@
 # This is a Red Light Green Light policy file for repos.moxielogic.org
 
+# ---------------------------------------------------------------------------
+# Allow for root ssh login for now.  Need to create user account and
+# adjust ansible logins before we do this.
+
+{ "result": "FAIL", "id": "Disable SSH Root Login" } 2020-02-07
