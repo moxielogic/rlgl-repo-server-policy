@@ -1,0 +1,4 @@
+# This is a Red Light Green Light policy file for repos.moxielogic.org
+
+# A fail is a fail
+{ "result": "FAIL" }
