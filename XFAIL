@@ -12,3 +12,11 @@
 # to implement a custom solution.
 
 { "result": "FAIL", "id": "Set Default firewalld Zone for Incoming Packets" }  2020-03-07
+
+# --------------------------------------------------------------------------
+# There is no out-of-the-box remediation for these items.  The solutions
+# seem simple enough, but investigate why this is the case.
+
+{ "result": "FAIL", "id": "Ensure auditd Collects File Deletion Events by User" } 2020-02-07
+{ "result": "FAIL", "id": "Ensure auditd Collects Information on Kernel Module Loading and Unloading" } 2020-02-07
+
